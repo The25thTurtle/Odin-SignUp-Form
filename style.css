@@ -1,0 +1,88 @@
+body {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+
+.imageBack {
+    height: 100vh;
+    width: 1000px;
+}
+
+.logoImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    font-size: 150%;
+    text-align: center;
+}
+
+.rightside {
+    padding: 10px;
+    margin: auto;
+}
+
+form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    width: 300px;
+    border-radius: 10px;
+    background: #596D48;
+    color: white;
+    padding: 5px;
+}
+
+#password, #ConfirmPass:user-invalid {
+    border-color: red;
+}
+
+input:user-valid {
+    border-color: greenyellow;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input {
+    border-radius: 6px;
+    width: 200px;
+}
+
+.form-name, .form-contact, .form-password {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+

@@ -11,40 +11,57 @@
         <main>
             <div class="container">
                 <section>
-                    <div>
-                        <img src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-                    </div>
+                    <img class="imageBack" src="https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
                 </section>
-                <section>
-                    <div>
+                <section class="rightside">
+                    <div class="logoImage">
+                        <img class="logo" src="https://raw.githubusercontent.com/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" height="200px" width="200px">
+                        <h1 class="logo">ODIN PROJECT SIGN UP FORM</h1>
                         <h2>This is not a real online service! You know you need something like this
-                            in your life to help you realize your deepest dreams.
-                            Sign up <i>now</i> to get started.
-                            <br>
-                            <br>
-                            You <i>know</i> you want to.
+                        in your life to help you realize your deepest dreams.
+                        Sign up <i>now</i> to get started.
+                        You <i>know</i> you want to.
                         </h2>
                     </div>
-                    <div class="formdiv">
+                    <div>
                         <form action="example.com/path" method="post">
-                            <h2>Let's do this!</h2>
-                            <br>
-                            <label for="first_name">FIRST NAME</label>
-                            <input type="text" name="first_name" id="first_name" placeholder="John" required>
-                            <label for="last_name">LAST NAME</label>
-                            <input type="text" name="last_name" id="last_name" placeholder="Doe" required>
-                            <label for="email">EMAIL</label>
-                            <input type="email" name="email" id="email" placeholder="example@email.com" required>
-                            <label for="phone_num">PHONE NUMBER</label>
-                            <input type="text" pattern="[0-9]+([-][0-9]+)*"name="phone_num" id="phone_num" placeholder="888-888-8888" required>
-                            <label for="password">PASSWORD</label>
-                            <input type="password" minlength="5" maxlength="12" name="password" id="password" required>
-                            <label for="confirmPass">CONFIRM PASSWORD</label>
-                            <input type="password" minlength="5" maxlength="12" name="ConfirmPass" id="ConfirmPass" required>
+                            <div>
+                                <h2>Let's do this!</h2>
+                            </div>
+                            <div class="form-name">
+                                <div class="field">
+                                    <label for="first_name">FIRST NAME</label>
+                                    <input type="text" name="first_name" id="first_name" placeholder="John" required>
+                                </div>
+                                <div class="field">
+                                    <label for="last_name">LAST NAME</label>
+                                    <input type="text" name="last_name" id="last_name" placeholder="Doe" required>
+                                </div>
+                            </div>
+                            <div class="form-contact">
+                                <div class="field">
+                                    <label for="email">EMAIL</label>
+                                    <input type="email" name="email" id="email" placeholder="example@email.com" required>
+                                </div>
+                                <div class="field">
+                                    <label for="phone_num">PHONE NUMBER</label>
+                                    <input type="text" pattern="[0-9]+([-][0-9]+)*"name="phone_num" id="phone_num" placeholder="888-888-8888" required>
+                                </div>
+                            </div>
+                            <div class="form-password">
+                                <div class="field">
+                                    <label for="password">PASSWORD</label>
+                                    <input type="password" minlength="5" maxlength="12" name="password" id="password" required>
+                                </div>
+                                <div class="field">
+                                    <label for="confirmPass">CONFIRM PASSWORD</label>
+                                    <input type="password" minlength="5" maxlength="12" name="ConfirmPass" id="ConfirmPass" required>
+                                </div>
+                            </div>
+                            <button type="submit">Create Account</button>
+                            <label>Already have an account?<a href=""> Log in</a></label>
                         </form>
                     </div>
-                        <button type="submit">Create Account</button>
-                        <label>Already have an account?<a href="">Log in</a></label>
                 </section>
             </div>
         </main>
